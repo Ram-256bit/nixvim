@@ -1,6 +1,10 @@
 {
   # Import all your configuration modules here
-  imports = [ ./plugins.nix ];
+  imports = [ 
+    ./plugins.nix
+    ./options.nix
+    ./lsp.nix
+  ];
 
   config = {
     extraConfigLuaPre =
