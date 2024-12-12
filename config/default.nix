@@ -1,9 +1,11 @@
 {
   # Import all your configuration modules here
-  imports = [ 
+  imports = [
     ./plugins.nix
     ./options.nix
     ./lsp.nix
+    ./fidget.nix
+    ./conform.nix
   ];
 
   config = {
@@ -97,7 +99,7 @@
       # Remove EOB
       fillchars = {
         eob = " ";
-      }; #2
-    }; #1
-    };
-    }
+      }; # 2
+    }; # 1
+  };
+}

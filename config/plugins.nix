@@ -1,4 +1,4 @@
-{ 
+{
   colorschemes = {
     catppuccin = {
       enable = true;
@@ -9,19 +9,14 @@
     bufferline.enable = true;
     web-devicons.enable = true;
     nvim-autopairs = {
-    enable = true;
-    settings = {
-      disable_filetype = [
-        "TelescopePrompt"
-        "vim"
-      ];
+      enable = true;
+      settings = {
+        disable_filetype = [
+          "TelescopePrompt"
+          "vim"
+        ];
+      };
     };
-  };
-  
-    
-
-   
-
 
   };
 }
