@@ -5,6 +5,8 @@ _: {
     ./lsp.nix
     ./settings.nix
     ./file_types.nix
+    ./auto_cmds.nix
+    ./themes.nix
 
     # Plugins
     ./plugins/cmp.nix
@@ -15,6 +17,7 @@ _: {
     ./plugins/copilot-chat.nix
     ./plugins/neotree.nix
     ./plugins/undotree.nix
+    ./plugins/lazygit.nix
 
   ];
 }
