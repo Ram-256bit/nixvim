@@ -1,17 +1,14 @@
-# Nixvim template
+# NixVim configuration
 
-This template gives you a good starting point for configuring nixvim standalone.
+## What is this?
 
-## Configuring
+This is my [NixVim](https://github.com/nix-community/nixvim) configuration for [Neovim](https://neovim.io/)
 
-To start configuring, just add or modify the nix files in `./config`.
-If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+## How to try it out?
 
-## Testing your new configuration
+- [Install Nix](https://nix.dev/install-nix)
+- Then run
 
-To test your configuration simply run the following command
-
-```
-nix run .
+```nix
+nix run 'Ram-256bit/nixvim'
 ```
