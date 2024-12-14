@@ -4,6 +4,7 @@ _: {
     ./options.nix
     ./lsp.nix
     ./settings.nix
+    ./file_types.nix
 
     # Plugins
     ./plugins/cmp.nix
@@ -11,6 +12,9 @@ _: {
     ./plugins/fidget.nix
     ./plugins/plugins.nix
     ./plugins/cmp-copilot.nix
+    ./plugins/copilot-chat.nix
+    ./plugins/neotree.nix
+    ./plugins/undotree.nix
 
   ];
 }
