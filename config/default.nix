@@ -10,6 +10,7 @@ _: {
     ./plugins/conform.nix
     ./plugins/fidget.nix
     ./plugins/plugins.nix
+    ./plugins/cmp-copilot.nix
 
   ];
 }
