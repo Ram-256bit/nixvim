@@ -44,6 +44,9 @@
         jsonls = {
           enable = true;
         };
+        hyprls = {
+          enable = true;
+        };
         #         helm_ls = {
         #           enable = true;
         #           extraOptions = {
@@ -159,6 +162,7 @@
       border = _border
     }
   '';
+
   plugins.lspkind = {
     enable = true;
     symbolMap = {
